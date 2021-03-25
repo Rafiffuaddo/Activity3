@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Activity3</string>
+    <string name="var1">ini pesan</string>
+    <string name="bsignin">SIGN-IN</string>
+    <string name="tlogin">LOGIN</string>
+    <string name="tData">Data anda</string>
+    <string name="tEmail">Email</string>
+    <string name="tPassword">Password</string>
+    <string name="txEmail">Ini Hasil Email</string>
+    <string name="txPassword">Ini Hasil Password</string>
+    <string name="label2">Login Berhasil</string>
+</resources>
