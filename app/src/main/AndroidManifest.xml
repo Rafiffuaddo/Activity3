@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Activity3">
-        <activity android:name=".Activity_Hasil" android:parentActivityName=".MainActivity"
-            android:label="@string/label2"></activity>
+        <activity android:name=".pendaftaran_activty"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".Activity_Hasil"
+            android:label="@string/label2"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,9 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <meta-data
-            android:name="Preloaded_fonts"
-            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
