@@ -1,19 +1,19 @@
 package com.example.activity3;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
-        public class pendaftaran_activity extends AppCompatActivity {
+        class pendaftaran_activity extends AppCompatActivity {
         EditText edtNama,edtAlamat,edtEmail,edtPassword,edtrepass;
-        FloatingActionButton floatingActionButton;}
+        FloatingActionButton floatingActionButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
